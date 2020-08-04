@@ -16,3 +16,5 @@ function moveDodgerRight()(){
     doger.style.left = `${left+1}px`;
   }  
 }
+
+document
