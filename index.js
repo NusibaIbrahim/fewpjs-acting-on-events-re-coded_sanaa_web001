@@ -8,3 +8,11 @@ function moveDodgerLeft(){
     doger.style.left = `${left-1}px`;
   }  
 }
+
+function moveDodgerLeft(){
+  var leftN = dodger.style.left.replace("px", "");
+  left = parseInt(leftN,10);
+  if(left >0){
+    doger.style.left = `${left+1}px`;
+  }  
+}
