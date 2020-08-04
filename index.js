@@ -3,5 +3,5 @@ let dodger = document.getElementById('dodger');
 
 function moveDodgerLeft(){
   var leftN = dodger.style.left.replace("px", "");
-    left = parseInt(left)
+    left = parseInt(leftN,10);
 }
