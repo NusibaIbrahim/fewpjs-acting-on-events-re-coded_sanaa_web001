@@ -9,7 +9,7 @@ function moveDodgerLeft(){
   }  
 }
 
-function moveDodgerRight()(){
+function moveDodgerRight(){
   var leftN = dodger.style.left.replace("px", "");
   left = parseInt(leftN,10);
   if(left >0){
